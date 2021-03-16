@@ -1,0 +1,24 @@
+
+nav a{ color:#ffffff; }
+
+nav li{ margin:5px; }
+
+.mt{
+    margin-left:auto;
+}
+.ats{ background-color: #301B1B; }
+.td{ color:#ffffff;
+}
+.br{ padding-top:10px;
+}
+#navbarTogglereDemo03:hover{
+  border-radius: 3px;
+  border-style: double;
+    color:black;
+}
+.but:hover{border-radius: 3px;
+border-style: double;
+  color:white;}
+a:hover{
+  color:#bbbbbb;
+}

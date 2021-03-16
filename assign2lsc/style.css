@@ -1,0 +1,188 @@
+
+body,html{
+  height:100%;
+  margin: 0;
+  margin-bottom:0;
+
+  }
+h2{
+  font-family: 'Fira Sans', sans-serif;
+}
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    }.top-cont{
+position: relative;
+  height: 100%;
+    width: 100%;
+}
+
+.top-cont img{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  z-index: -1;
+
+}
+.top-cont input{
+
+  margin-top:60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  z-index: 0;
+  width: 90%;
+  height: 45px;
+  color:black;
+  z-index: 1;
+  border-color: #301B1B;
+  border-width: 3px;
+  border-radius: 5rem;
+}
+.herotext{
+  text-align: center;
+  color: white;
+  margin-top: 400px;
+}
+
+.ret, .tee{
+  display:inline;
+  float:left;
+}
+.mid1-cont{
+  background-color: #301B1B;
+    height: 100%;
+      width: 100%;
+}
+.stocks{
+  height:50%;
+}
+.cardsboot{
+  height:50%;
+}
+
+.bottom-cont{
+  background-color: red;
+    height: 100%;
+    width: 100%;
+
+}
+.stockpicks{
+  text-align: center;
+  color:white;
+
+}
+.sl{
+  margin-bottom: 100px;
+  margin-top:40px;
+}
+.cl{
+  height: 350px;
+  width:200px;
+  margin-bottom:200px;
+  color:#301B1B;
+}
+.iml{
+  height:50px;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.Mess{
+height: 50%;
+background-color:#301B1B;
+}
+.Mess .tex1{
+  color: white;
+  width:70%;
+  float:left;
+}
+.Mess img{
+  position: absolute;
+  float:right;
+margin-top: 70px;
+}
+.about {
+height: 50%;
+background-color: white;
+
+}
+
+.about .tex2{
+  width: 70%;
+  color:#301B1B;
+  float:left;
+}
+.about img{
+  position: absolute;
+  float:right;
+  margin-top:50px;
+}
+.mid1-cont{
+  height:100%;
+}
+
+.stockpicks .sl .cl .re p{
+  font-size:38px;
+}
+.stockpicks .sl .cl .re .rem{
+  font-size: 30px;
+  color: green;
+  }
+  @media screen and (max-width:1000px){
+    .stockpicks .sl .cl .re p{
+      font-size:25px;
+    }
+    .stockpicks .sl .cl .re .rem{
+      font-size:19px;
+    }
+
+  }
+  @media screen and (max-width:1200px){
+  .Mess img{
+    max-width:30%;
+  }
+  .about img{
+      max-width:30%;
+  }
+}
+@media screen and (max-width: 650px){
+.sl{
+margin-top:20px;
+}
+.tex2{
+  width: 100%;
+
+}
+.tex1{
+  width:100%;
+
+}
+.Mess img{
+  display:none;
+}
+.Mess h3{
+  text-align: center;
+}
+.about img{
+  display: none;
+}
+.top-cont input{
+  margin-top:50px;
+  margin-left:50px;
+}
+
+}
+.top-cont .mid2-cont .bottomcount{
+height: 50%;
+}
